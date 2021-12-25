@@ -141,6 +141,7 @@ type opsgenieConfig struct {
 	Tags          string              `yaml:"tags,omitempty" json:"tags,omitempty"`
 	Note          string              `yaml:"note,omitempty" json:"note,omitempty"`
 	Priority      string              `yaml:"priority,omitempty" json:"priority,omitempty"`
+	UpdateAlerts  bool                `yaml:"update_alerts,omitempty" json:"update_alerts,omitempty"`
 }
 
 type weChatConfig struct {

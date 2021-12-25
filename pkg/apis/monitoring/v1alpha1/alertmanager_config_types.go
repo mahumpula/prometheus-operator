@@ -482,6 +482,9 @@ type OpsGenieConfig struct {
 	// HTTP client configuration.
 	// +optional
 	HTTPConfig *HTTPConfig `json:"httpConfig,omitempty"`
+	// Update alert descritpion on change.
+	// +optional
+	UpdateAlerts bool `json:"updateAlerts,omitempty"`
 }
 
 // Validate ensures OpsGenieConfig is valid

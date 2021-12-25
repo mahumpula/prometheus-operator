@@ -830,6 +830,10 @@
                               "tags": {
                                 "description": "Comma separated list of tags attached to the notifications.",
                                 "type": "string"
+                              },
+                              "updateAlerts": {
+                                "description": "Update alert descritpion on change.",
+                                "type": "boolean"
                               }
                             },
                             "type": "object"
